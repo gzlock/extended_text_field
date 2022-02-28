@@ -2,7 +2,6 @@
 
 import 'package:example/special_text/my_extended_text_selection_controls.dart';
 import 'package:example/special_text/my_special_text_span_builder.dart';
-import 'package:example/textarea.dart';
 import 'package:extended_text_field/extended_text_field.dart';
 import 'package:flutter/material.dart';
 
@@ -49,8 +48,7 @@ class _CustomToolBarState extends State<CustomToolBar> {
         strutStyle: const StrutStyle(),
         shouldShowSelectionHandles: _shouldShowSelectionHandles,
         textSelectionGestureDetectorBuilder: ({
-          required ExtendedTextSelectionGestureDetectorBuilderDelegate
-          delegate,
+          required ExtendedTextSelectionGestureDetectorBuilderDelegate delegate,
           required Function showToolbar,
           required Function hideToolbar,
           required Function? onTap,
